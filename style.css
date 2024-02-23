@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("1.jpg");
+    background-size: cover;
+}
+
+.details{
+    display: flex;
+    gap: 25px;
+}
+#myName{
+    font-size: 70px;
+    font-weight: 300;
+}
+
+#greet{
+    margin-top: 90px;
+}
+
+
+.main{
+    color: rgb(187, 190, 190);
+    margin-top: 150px;
+    width: 500px;
+    height: 300px;
+    background-color: rgba(197, 104, 104, 0.5)
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    
+}
+
+.clock{
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    font-size: 55px;
+}
